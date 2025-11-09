@@ -1,4 +1,3 @@
----
 site_name: Product Security Interview Prep
 nav:
   - Home: index.md
@@ -6,8 +5,14 @@ nav:
   - Code Security:
       - Commit Signing: commit_signing.md
   - Study Materials: study_materials.md
+  - Threat Modeling: threat_modeling.md
 theme:
   name: material
-
 repo_name: ajschmitty/prodsec-interview-prep
 repo_url: https://github.com/ajschmitty/prodsec-interview-prep
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format

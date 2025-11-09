@@ -1,12 +1,11 @@
----
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v6.0.0   # Use the latest stable revision
+    rev: v6.0.0 # Use the latest stable revision
     hooks:
       - id: trailing-whitespace
       - id: end-of-file-fixer
       - id: check-yaml
-      - id: check-toml
+        args: [--unsafe]
       - id: check-xml
       - id: check-added-large-files
       - id: check-case-conflict
@@ -15,15 +14,14 @@ repos:
       - id: check-shebang-scripts-are-executable
       - id: detect-private-key
   - repo: https://github.com/adrienverge/yamllint.git
-    rev: v1.37.1  # or higher tag
+    rev: v1.37.1 # or higher tag
     hooks:
       - id: yamllint
         args: [--format, parsable]
-  - repo: https://github.com/jumanjihouse/pre-commit-hook-yamlfmt
-    rev: 0.2.3   # Use a stable revision
+  - repo: https://github.com/google/yamlfmt
+    rev: v0.20.0
     hooks:
       - id: yamlfmt
-        args: [--mapping, '2', --sequence, '4', --offset, '2']
   - repo: https://github.com/igorshubovych/markdownlint-cli
     rev: v0.45.0
     hooks:
