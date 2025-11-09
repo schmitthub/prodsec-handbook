@@ -8,8 +8,10 @@ nav:
   - Threat Modeling: threat_modeling.md
 theme:
   name: material
+
 repo_name: ajschmitty/prodsec-interview-prep
 repo_url: https://github.com/ajschmitty/prodsec-interview-prep
+
 markdown_extensions:
   - pymdownx.superfences:
       custom_fences:
