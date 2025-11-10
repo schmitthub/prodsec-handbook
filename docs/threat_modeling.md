@@ -3,10 +3,6 @@
 ``` mermaid
 ---
 title: Threat Model Process
-config:
-  theme: base
-  themeVariables:
-    primaryColor: "#00ff00"
 ---
 graph LR
     B[1. Scope your work]
