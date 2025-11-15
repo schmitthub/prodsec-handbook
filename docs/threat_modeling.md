@@ -43,3 +43,7 @@ graph LR
 - **AWS Threat Composer**
       - [AWS Threat Composer Github](https://github.com/awslabs/threat-composer)
       - [AWS Threat Compose Site](https://awslabs.github.io/threat-composer/workspaces/default/dashboard)
+
+## Reading
+
+- [OWASP Threat Modeling Process](https://owasp.org/www-community/Threat_Modeling_Process)

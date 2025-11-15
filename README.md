@@ -1,3 +1,3 @@
-# prodsec-interview-prep
+# learn-prodsec
 
 soon..
