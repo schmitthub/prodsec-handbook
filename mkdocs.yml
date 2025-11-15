@@ -1,4 +1,4 @@
-site_name: Product Security Interview Prep
+site_name: Learn ProdSec
 nav:
   - Home: index.md
   - Architecture: architecture.md
@@ -10,7 +10,7 @@ theme:
   name: material
 
 repo_name: ajschmitty/prodsec-interview-prep
-repo_url: https://github.com/ajschmitty/prodsec-interview-prep
+repo_url: https://github.com/ajschmitty/learn-prodsec
 
 markdown_extensions:
   - pymdownx.superfences:
