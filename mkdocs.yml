@@ -1,12 +1,31 @@
 site_name: Learn ProdSec
+site_url: https://ajschmitty.github.io/learn-prodsec/
 nav:
   - Home: index.md
-  - Architecture: architecture.md
+  - Architecture:
+      - architecture/index.md
+      - Micro Services: architecture/microservices.md
+      - Patterns:
+          - Backends For Frontends: architecture/bff.md
   - Code Security:
-      - Commit Signing: commit_signing.md
+      - code-security/index.md
+      - Commit Signing: code-security/commit_signing.md
   - Study Materials: study_materials.md
   - Threat Modeling: threat_modeling.md
+
 theme:
+  features:
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.path
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.tracking
+    - search.highlight
+    - search.suggest
+    - toc.follow
   name: material
 
 repo_name: ajschmitty/learn-prodsec
@@ -18,3 +37,10 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+  - toc:
+      permalink: true
+
+plugins:
+  - privacy
+  - search
+  - tags

@@ -1,8 +1,4 @@
-# Architecture
-
-## Topics
-
-### Microservices
+# Microservices
 
 - [Microservices](https://microservices.io/patterns/microservices.html)
 - [CRQS](https://microservices.io/patterns/data/cqrs.html)
