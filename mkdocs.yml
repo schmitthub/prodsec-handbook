@@ -1,5 +1,5 @@
-site_name: Learn ProdSec
-site_url: https://ajschmitty.github.io/learn-prodsec/
+site_name: Product Security Handbook
+site_url: https://ajschmitty.github.io/prodsec-handbook/
 nav:
   - Home: index.md
   - Architecture:
@@ -28,8 +28,8 @@ theme:
     - toc.follow
   name: material
 
-repo_name: ajschmitty/learn-prodsec
-repo_url: https://github.com/ajschmitty/learn-prodsec
+repo_name: ajschmitty/prodsec-handbook
+repo_url: https://github.com/ajschmitty/prodsec-handbook
 
 markdown_extensions:
   - pymdownx.superfences:
