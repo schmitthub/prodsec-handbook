@@ -1,3 +1,3 @@
-# Learn ProdSec
+# Prodsec Handbook
 
 THIS SITE IS UNDER CONSTRUCTION

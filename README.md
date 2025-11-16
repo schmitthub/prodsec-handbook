@@ -1,3 +1,3 @@
-# learn-prodsec
+# prodsec-handbook
 
 soon..
