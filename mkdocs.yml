@@ -7,6 +7,9 @@ nav:
       - Micro Services: architecture/microservices.md
       - Patterns:
           - Backends For Frontends: architecture/bff.md
+  - Auth:
+      - auth/index.md
+      - Token Security: auth/token_security.md
   - Code Security:
       - code-security/index.md
       - Commit Signing: code-security/commit_signing.md
