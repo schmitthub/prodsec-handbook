@@ -1,0 +1,5 @@
+# Code quality - made this a separate requirements file to allow
+# installation in CI environments for linting and checks without
+# installing all development dependencies.
+# ------------------------------------------------------------------------------
+pre-commit==4.3.0  # https://github.com/pre-commit/pre-commit
