@@ -13,7 +13,10 @@ nav:
   - Code Security:
       - code-security/index.md
       - Commit Signing: code-security/commit_signing.md
-  - Study Materials: study_materials.md
+  - Resources:
+      - resources/index.md
+      - Books: resources/books.md
+      - Web: resources/web.md
   - Threat Modeling: threat_modeling.md
 
 theme:

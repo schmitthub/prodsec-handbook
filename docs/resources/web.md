@@ -1,8 +1,10 @@
-# Study Materials
+# Web Resources
 
-## Books
+## Threat Modeling
 
-## Links
+- [Shellsharks: The Enchiridion of Impetus Exemplar. A Threat Modeling Field Guide](https://shellsharks.com/threat-modeling)
+
+## Interview Prep
 
 - [https://github.com/tadwhitaker/Security_Engineer_Interview_Questions/blob/master/security-interview-questions.md](https://github.com/tadwhitaker/Security_Engineer_Interview_Questions/blob/master/security-interview-questions.md)
 - [https://github.com/security-prince/Application-Security-Engineer-Interview-Questions](https://github.com/security-prince/Application-Security-Engineer-Interview-Questions)
